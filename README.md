@@ -6,7 +6,7 @@
 - और पिछली बार की तरह बकचोदी मत करना |
 - After reading this please tick in the checkbox of your name
   - [x] dishant
-  - [ ] hardik
+  - [x] hardik
   - [ ] raghav
   - [ ] khushi
   - [ ] swathi
