@@ -4,10 +4,9 @@
 - But don't push your code directly into the master branch.
 - Use your-name branch to push the code.
 - और पिछली बार की तरह बकचोदी मत करना |
-<br />
-After reading this please tick in the checkbox of your name
-- [x] dishant
-- [ ] hardik
-- [ ] raghav
-- [ ] khushi
-- [ ] swathi
+- After reading this please tick in the checkbox of your name
+  - [x] dishant
+  - [ ] hardik
+  - [ ] raghav
+  - [ ] khushi
+  - [ ] swathi
