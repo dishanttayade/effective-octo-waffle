@@ -7,6 +7,6 @@
 - After reading this please tick in the checkbox of your name
   - [x] dishant
   - [x] hardik
-  - [ ] raghav
+  - [x] raghav
   - [ ] khushi
   - [ ] swathi
