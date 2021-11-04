@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { useHistory } from 'react-router';
 import '../App.css';
 
 function Register() {
+  const history = useHistory()
   const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -20,8 +22,11 @@ function Register() {
       }),
     })
 
-    const data = response.json()
-    console.log(data)
+    const data = await response.json()
+    // console.log(data)
+    if(data.status === 'ok'){
+      history.push('/login')
+    }
   }
 
 

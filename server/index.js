@@ -1,10 +1,10 @@
 // const bodyParser = require('body-parser')
 const express = require('express')
-const path = require('path')
 const app = express()
 const cors = require('cors')
 const mongoose = require('mongoose')
 const User = require('./models/user.model')
+const jwt = require('jsonwebtoken')
 
 // app.use(express.json())
 // app.use('/', express.static(path.join(__dirname, 'static')))
@@ -42,10 +42,51 @@ app.post('/api/login', async (req,res) => {
             password: req.body.password
         })
     if(user){
-        return res.json({status: 'Ok', user: true})
+        const token = jwt.sign(
+            {
+                name: user.name,
+                email: user.email,
+            },'password')
+            // atob(middle part of token) will give user details
+        return res.json({status: 'Ok', user: token})
     }else {
         return res.json({status:'error', user:false})
     }
+})
+
+
+app.get('/api/dashboard', async (req, res) => {
+	const token = req.headers['x-access-token']
+
+	try {
+		const decoded = jwt.verify(token, 'password')
+		const email = decoded.email
+		const user = await User.findOne({ email: email })
+
+		return res.json({ status: 'ok', quote: user.quote })
+	} catch (error) {
+		console.log(error)
+		res.json({ status: 'error', error: 'invalid token' })
+	}
+})
+
+app.post('/api/dashboard', async (req, res) => {
+	const token = req.headers['x-access-token']
+    console.log(token)
+	try {
+		const decoded = jwt.verify(token, 'password')
+		const email = decoded.email
+        console.log(email)
+		await User.updateOne(
+			{ email: email },
+			{ $set: { quote: req.body.quote } }
+		)
+
+		return res.json({ status: 'ok' })
+	} catch (error) {
+		// console.log(error)
+		res.json({ status: 'error', error: 'invalid token'})
+	}
 })
 app.listen(1337, ()=> {
     console.log('Server Started on http://localhost:1337')
