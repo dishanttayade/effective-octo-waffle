@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6183962edef43c1cad11fdbb"
+  },
+  "username": "admin",
+  "email": "admin@admin",
+  "password": "password",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6183a2171efb6b4a838baf09"
+  },
+  "username": "adam",
+  "email": "adm@adm",
+  "password": "password",
+  "__v": 0,
+  "quote": "its a quote here"
+},{
+  "_id": {
+    "$oid": "61acef63ccfc6a30d8b1b5c7"
+  },
+  "username": "Name",
+  "email": "name@name",
+  "password": "password",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61bb9c1d3bba616f2764bd5c"
+  },
+  "username": "New Registration",
+  "email": "newregistration@gmail.com",
+  "password": "password",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61bb9c5a3bba616f2764bd5e"
+  },
+  "username": "New Registration",
+  "email": "registration@new.com",
+  "password": "password",
+  "__v": 0
+}]
