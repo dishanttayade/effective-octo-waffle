@@ -46,16 +46,15 @@ Classroom is an app which provides teachers and students an environment where
     - Server directory : 
         `npm start`
 
-* Warning :  The '.env' file in both client and server directory is important for the backend to connect with frontend. So check whether both the folder have '.env' file.
 
 
 # User Guide for IIITS ClASSROOM
 
-- LOGIN PAGE
-    - This is the page where the already existing user enters our application via 
-        - Login with Email
-        - Login with Google
-        - This page is made from the COMPONENTS listed below:
+    - LOGIN PAGE:
+        - This is the page where the already existing user enters our application via 
+            - Login with Email
+            - Login with Google
+            - This page is made from the COMPONENTS listed below:
             SignUp / useAuth
 
    ![login_iiit](https://user-images.githubusercontent.com/70201987/148689920-08cc0cea-1d0b-4ff9-935c-dffe8a76dced.png)
@@ -75,6 +74,30 @@ Classroom is an app which provides teachers and students an environment where
       
       
    - QUIZ PAGE
+     ![image](https://user-images.githubusercontent.com/70201987/148691900-93ed3d1d-5663-4f5a-a594-a24dbaa92ee8.png)
+     ![image](https://user-images.githubusercontent.com/70201987/148691911-54fc586d-27b9-4b68-bb4e-cbcfda4a903a.png)
+    ![image](https://user-images.githubusercontent.com/70201987/148691924-919df023-4cb5-4959-a95d-4cd81ee7bd78.png)
+
+
+   -Feature that are added:
+   ![image](https://user-images.githubusercontent.com/70201987/148691965-6d9e0863-5051-4f71-8a1f-a22acac67287.png)
+
+
+   -Answers of students, organising of quiz and correct answer of quiz:
+   ![image](https://user-images.githubusercontent.com/70201987/148692012-058d24bc-34c8-4f1c-8fd9-83056376db01.png)
+   ![image](https://user-images.githubusercontent.com/70201987/148692047-e531d5a1-62c1-470c-bcc4-f998c7b71a99.png)
+   ![image](https://user-images.githubusercontent.com/70201987/148692057-82f95b8b-0815-4bc0-bbcb-3d728bce7b61.png)
+
+  ![image](https://user-images.githubusercontent.com/70201987/148692161-deb53d34-0dff-4722-a658-ff6ad37d97f8.png)
+  
+  -Scheduling quiz on appropriate date and time
+
+  ![image](https://user-images.githubusercontent.com/70201987/148692106-970ec60a-804b-43a9-bc9a-0e6e93b93edd.png)
+  
+  -Option for the in-built quiz
+ ![image](https://user-images.githubusercontent.com/70201987/148692108-3d01dad4-17e6-4420-94de-30cfb3ff2180.png)
+![image](https://user-images.githubusercontent.com/70201987/148692121-f9e7d7d4-9fa2-4dab-a6d7-e7b006327b01.png)
+
    
 
 
