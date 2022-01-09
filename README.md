@@ -49,6 +49,7 @@ Classroom is an app which provides teachers and students an environment where
 
 
 # User Guide for IIITS ClASSROOM
+
     - LOGIN PAGE:
         - This is the page where the already existing user enters our application via 
             - Login with Email
