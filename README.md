@@ -1,13 +1,11 @@
 # Classroom
-
-![Classroom demo](https://drive.google.com/uc?esport=view&id=14Iu2VRcHoCKUCUkF0iMCuyjcj9_TZ90a)
-
-#### Warning: although this project has some basics security such as hashed user password and others, this project is NOT secure enough in production. (Contribute to this project by making a pull request will be appreciated)
+<!-- 
+#### Warning: although this project has some basics security such as hashed user password and others, this project is NOT secure enough in production. (Contribute to this project by making a pull request will be appreciated) -->
 
 How to run:
 
 - Clone this repository or fork it.
-  `git clone https://github.com/kimlimjustin/Classroom.git` or `git clone https://github.com/<your username>/Classroom.git`
+  `git clone https://github.com/dishanttayade/effective-octo-waffle.git` or `git clone https://github.com/<your username>/effective-octo-waffle.git`
 
 - Inside `server` folder, create a new file called `.env` which stores your `ATLAS_URI`, `SECURITY_KEY` and `CLIENT_URL` information
   - store your database URI inside `ATLAS_URI` variable
