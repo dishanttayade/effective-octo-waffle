@@ -1,3 +1,10 @@
+# Group 19 - members
+- Dishant Tayade `S20190010175`
+- Swathi Kasoju `S20190010087`
+- Hardik Sharma `S20190010062`
+- Raghav Garg `S20190010148`
+- Khushi Pathak `S20190010091`
+
 # Classroom Management App
 
 Classroom is an app which provides teachers and students an environment where 
