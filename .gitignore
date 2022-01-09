@@ -11,3 +11,5 @@ client/.env.test.local
 client/.env.production.local
 
 client/src/Static/SecretKey.static.js
+
+dontread.md

@@ -73,7 +73,7 @@ const JoinClass = () => {
                             </div>
                         </form>
                         <form id = "create-class" className="box bg-dark text-color" style={{display: "none"}} onSubmit = {CreateClass}>
-                            <h1 className="box-title">Create class</h1>
+                            <h1 className="box-title" style={{color:"black"}}>Create class</h1>
                             <h4 className="form-error">{createError}</h4>
                             <div className="form-group">
                                 <p className="form-label">Class title:</p>

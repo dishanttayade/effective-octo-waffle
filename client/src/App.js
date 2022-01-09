@@ -20,6 +20,7 @@ import Logout from "./Components/logout.component";
 import EditProfile from "./Components/Profile/edit_profile.component";
 import Profile from "./Components/Profile/profile.component";
 import Register from "./Components/register.component";
+import QuizApp from "./quiz/QuizApp";
 
 const App = () => (
     <Router>
@@ -41,7 +42,8 @@ const App = () => (
             <Route path = "/class/:classId/setting" component = {ClassSetting} />
             <Route path = "/class/:classId/people" component = {People} />
             <Route path = "/class/:classId" component = {Class} />
-            <Route path = "*" component = {ZeroFourZero} />
+            <Route path = "/quizapp" component={QuizApp} />
+            {/* <Route path = "*" component = {ZeroFourZero} /> */}
         </Switch>
     </Router>
 )

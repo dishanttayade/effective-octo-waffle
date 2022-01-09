@@ -115,7 +115,7 @@ const MultipleChoice = (params) => {
         <div className = "container-fluid">
             <ClassNavbar classInfo = {classInfo} />
             <div className="container margin-top-bottom">
-                <div className="col-9">
+                <div className="col-9 box">
                     <h1 className="box-title">{classwork.title}</h1>
                     {classwork.duedate?<p>Due: {moment(classwork.duedate).fromNow()}</p>:null}
                     <p className="box-text material-description">{classwork.description}</p>
@@ -199,8 +199,8 @@ const MultipleChoice = (params) => {
                     <span className="classwork-close" onClick = {closeAnswer}>&times;</span>
                     <h1 className="box-title">Answers by students:</h1>
                     {answers.map(answer => {
-                        return <p key = {answer._id}>{answer.student.username} answered <b>{answer.answer}</b> {moment(answer.answeredOn).fromNow()}
-                        {answer.answeredOn > classwork.duedate? <span><b> (Turned in late)</b></span>:null}</p>
+                        return <p key = {answer._id}> <b> {answer.student.username}</b> answered <b>{answer.answer}</b> {moment(answer.answeredOn).fromNow()}
+                        {answer.answeredOn > classwork.duedate? <span><b> (Turned in late)</b></span>:null}<hr /> </p>
                     })}
                 </div>
             </div>

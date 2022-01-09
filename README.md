@@ -1,40 +1,40 @@
-# Classroom
-<!-- 
-#### Warning: although this project has some basics security such as hashed user password and others, this project is NOT secure enough in production. (Contribute to this project by making a pull request will be appreciated) -->
+# Classroom Management App
 
-How to run:
+Classroom is an app which provides teachers and students an environment where 
+- Users can
+    - create classroom
+    - join classroom
+    - update username, password, profile picture
+    - archive joined classes
+    - see all the usernames who joined the class
 
-- Clone this repository or fork it.
-  `git clone https://github.com/dishanttayade/effective-octo-waffle.git` or `git clone https://github.com/<your username>/effective-octo-waffle.git`
+- Teachers can 
+    - add classwork
+    - make announcements
+    - add or remove students
+    - ask question of following types 
+        - Short Questions
+        - Long Questions
+        - MCQ single correct
+        - MCQ multiple correct
+    - update class settings
 
-- Inside `server` folder, create a new file called `.env` which stores your `ATLAS_URI`, `SECURITY_KEY` and `CLIENT_URL` information
-  - store your database URI inside `ATLAS_URI` variable
-  - store your security key inside `SECURITY_KEY` variable
-  - store your client url inside `CLIENT_URL` variable
-  - example:
-  ```
-  ATLAS_URI =mongodb+srv://admin:<password>@cluster0.8aezk.gcp.mongodb.net/classroom?retryWrites=true&w=majority
-  SECURITY_KEY = D73373D9B4ED6FEC5B8B2DAF6WA929B1C7D14CDC88B196EBDCCEA77AFF7BB9
-  CLIENT_URL = http://localhost:3000/
-  ```
-- Inside `client` folder, create a new file called `.env` which stores your `REACT_APP_SECURITY_KEY` and `REACT_APP_BACKEND_URL` informations
+- Students can
+    - read all the announcements and questions posted by teacher
+    - answer the questions of all types mentioned above
+    - ask questions if given access by teacher
+    - unenroll a classroom
 
-  - store your security key inside `REACT_APP_SECURITY_KEY` variable, note that this value must same as `SECURITY_KEY` in `server/.env` file
-  - store your server url inside `REACT_APP_BACKEND_URL` variable
-  - example:
+# How to run this project?
 
-  ```
-  REACT_APP_SECURITY_KEY = D73373D9B4ED6FEC5B8B2DAF6WA929B1C7D14CDC88B196EBDCCEA77AFF7BB9
-  REACT_APP_BACKEND_URL = http://localhost:5000
-  ```
+- Install the dependencies
+    - Client directory :
+        `npm i`
+    - Server directory :
+        `npm i`
 
-- install all dependencies.
-  - Client side:
-    on the `client` directory type `npm install`
-  - Server side:
-    on the `server` directory type `npm install`
-- Run it on node js:
-  - Client side:
-    on the `client` directory type `npm start`
-  - Server side:
-    on the `server` directory type `npm start`
+- After installation, run the backend and frontend
+    - Client directory :
+        `npm start`
+    - Server directory : 
+        `npm start`
