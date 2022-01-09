@@ -36,9 +36,9 @@ Classroom is an app which provides teachers and students an environment where
 
 - Install the dependencies
     - Client directory :
-        `npm i`
+        `npm install`
     - Server directory :
-        `npm i`
+        `npm install`
 
 - After installation, run the backend and frontend
     - Client directory :
