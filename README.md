@@ -46,6 +46,7 @@ Classroom is an app which provides teachers and students an environment where
     - Server directory : 
         `npm start`
 
+* Warning :  The '.env' file in both client and server directory is important for the backend to connect with frontend. So check whether both the folder have '.env' file.
 
 
 # User Guide for IIITS ClASSROOM
