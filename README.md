@@ -12,8 +12,8 @@ Classroom is an app which provides teachers and students an environment where
     - create classroom
     - join classroom
     - update username, password, profile picture
-    - archive joined classes
-    - see all the usernames who joined the class
+    - archive joined classes and unarchive them again
+    - see all the usernames of other users who joined the class
 
 - Teachers can 
     - add classwork
