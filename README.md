@@ -20,4 +20,4 @@
   - [x] hardik
   - [x] raghav
   - [ ] khushi
-  - [ ] swathi
+  - [x] swathi
