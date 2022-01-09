@@ -134,7 +134,7 @@ const ClassSetting = (params) => {
                                 <li><p className="link" onClick = {() => removeTeacher(teacher._id)}>Remove</p></li>
                             </ul></li>
                         })
-                        :<h3>There is no teacher yet.</h3>}
+                        :<h3>There is no other teacher yet.</h3>}
                     </ul>
                 </div>
                 <div className="margin-top-bottom box box-shadow">
@@ -144,7 +144,7 @@ const ClassSetting = (params) => {
                         students.map(student => {
                             return <li key = {student._id}>{student.username} ({student.email})
                             <ul>
-                                <li><p className = "link" onClick = {() => toTeacher(student._id)}>Promote become a teacher</p></li>    
+                                <li><p className = "link" onClick = {() => toTeacher(student._id)}>Promote to teacher</p></li>    
                                 <li><p className = "link" onClick = {() => removeStudent(student._id)}>Remove</p></li>    
                             </ul></li>
                         })
