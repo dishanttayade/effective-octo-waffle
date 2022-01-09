@@ -50,11 +50,11 @@ Classroom is an app which provides teachers and students an environment where
 
 # User Guide for IIITS ClASSROOM
 
-    - LOGIN PAGE:
-        - This is the page where the already existing user enters our application via 
-            - Login with Email
-            - Login with Google
-            - This page is made from the COMPONENTS listed below:
+- LOGIN PAGE
+    - This is the page where the already existing user enters our application via 
+        - Login with Email
+        - Login with Google
+        - This page is made from the COMPONENTS listed below:
             SignUp / useAuth
 
    ![login_iiit](https://user-images.githubusercontent.com/70201987/148689920-08cc0cea-1d0b-4ff9-935c-dffe8a76dced.png)
